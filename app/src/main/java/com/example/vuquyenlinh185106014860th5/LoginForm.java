@@ -123,6 +123,11 @@ public class LoginForm extends AppCompatActivity {
             nut1.setEnabled(true);
             // auto focus vao edittext 1
             e1.requestFocus();
+            // gan lai counter
+            counter = 10;
+            tvtry.setText(Integer.toString(counter));
+            tvtry.setVisibility(View.GONE);
+            tvlabel.setVisibility(View.GONE);
         }
     }
 
